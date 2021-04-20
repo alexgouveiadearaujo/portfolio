@@ -1,3 +1,4 @@
 ## portfolio
-https://alexgouveiadearaujo.github.io/portfolio/
-<iframe src="https://drive.google.com/file/d/1H_c3bxxNmLh3slve-J1QjqQlXYpUK1tR/preview" width="640" height="480"></iframe>
+link to site: https://alexgouveiadearaujo.github.io/portfolio/
+
+![gif](https://github.com/alexgouveiadearaujo/portfolio/blob/main/img/Portf%C3%B3lio%20Alex%20Ara%C3%BAjo.gif)
