@@ -1,0 +1,21 @@
+@import "reset.css";
+@import "base.css";
+@import "header.css";
+@import "conhecimentos.css";
+@import "portfolio.css";
+@import "footer.css";
+@import "menu-mobile.css";
+
+
+
+
+[data-anime="scroll"]{
+    opacity: 0;
+    transform: translateY(-30px);
+}
+
+[data-anime="scroll"].ativo{
+    opacity: 1;
+    transition: .5s;
+    transform: translateY(0);
+}

@@ -1,0 +1,68 @@
+
+
+.portfolio{
+   background: linear-gradient(0deg, black, rgb(122, 27, 231) 47%);
+    min-height: calc(100vh - 29px );
+}
+
+.portfolio__caixa{
+    background-color: black;
+    border: 1px solid #ffffff;
+    box-shadow: 4px 6px 5px rgb(39, 38, 38);
+    padding: 1rem;
+    margin-top: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+
+.portfolio h2{
+    padding-bottom: 0.5rem;
+}
+
+.portfolio__caixa h3{
+    padding-bottom: 1rem;
+}
+
+.portfolio__caixa li{
+    line-height: 1.5rem;
+}
+/*
+.portfolio__caixa a:active{
+    background-color: rgba(255, 255, 255, .5);
+}*/
+
+.portfolio__caixa a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+/*MEDIA*/
+@media(min-width:768px){
+    .portfolio{
+        min-height: calc(100vh - 48px);
+    }
+    .portfolio h2{
+        
+        padding-bottom: 3rem;
+        
+    }
+
+    .portfolio__grupo{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+    }
+
+    .portfolio__caixa{
+        transition: transform .5s ease-in-out;
+    }
+
+    .portfolio__caixa:hover{
+        transform: scale(1.05);
+    }
+
+}

@@ -1,0 +1,89 @@
+@media (max-width:500px){
+
+    .menu__iconhome{
+        display: none;
+    }
+
+    .menu__itens {
+        background: #f0f0f0;
+        padding: 1em;
+        height: 100%;
+        left: -100%;/*fora da tela*/
+        margin: 0;
+        /*max-width: 320px;*/
+        position: fixed;
+        top: 0;
+        z-index: 1;
+        width: 65%;
+        
+        transition: left 0.5s ease-in-out;
+    }
+
+    .menu-ativo .menu__itens {
+        left: 0; /*se  ativo menu aparece */
+    }
+
+
+    .menu a{
+        color: black;
+        font-weight: bold;
+        font-size: 0.9rem;
+    }
+
+   
+    .menu ul{
+        display: block;
+        margin-top: 1.5rem;
+    }
+
+    .menu li{
+        text-transform: uppercase;
+        padding-top: 1rem;   
+        border-bottom: 1px solid  rgba(0, 0, 0, 0.2);
+        margin-right: 0;
+    }
+
+    .menu .menu__itens button{/*tds btn*/
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+   
+    .menu .menu__abrir{ 
+        font-size:1rem;  
+        border-radius: 0px; 
+    }
+
+    .menu__itens{
+        padding: 0;
+    }
+    
+    .menu__itens .menu__fechar{/*btn fechar*/
+        border:none;
+        font-size:1.5rem;
+        padding: 0 2px 0 0;
+      
+    }
+
+    .menu-ativo:after{ /*cinza fundo do menu*/
+        content: "";
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-color: rgba(0,0,0,0.6);
+
+    }
+   
+}
+
+@media (min-width:501px){
+    .menu__abrir, .menu__fechar{
+        display: none;
+    }
+}
+
+

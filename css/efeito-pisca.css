@@ -1,0 +1,17 @@
+#efeitoDigitando:after{
+	content: '|';/*acrescenta conteudo*/
+	margin-left: 2px;
+	opacity: 1;
+	animation: pisca 0.7s infinite;
+}
+
+
+@keyframes pisca{
+	0%, 100%{
+		opacity: 1;
+	}
+	50%{
+		opacity: 0;
+	}
+	
+}

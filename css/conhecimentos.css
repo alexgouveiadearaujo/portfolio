@@ -1,0 +1,95 @@
+.conhecimentos{
+    background-color: rgb(122, 27, 231);
+    min-height: calc(100vh - 29px - 1rem);
+    
+}
+.conhecimentos h2{
+    padding-top: 1rem;
+    
+}
+
+.conhecimentos__grupo{
+    height: calc(100vh - 22.4px - 29px);
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+}
+
+.conhecimentos__icon{
+    text-align: center;
+    color: #ffffff;
+    font-weight: 100;
+    text-shadow: 3px 3px 2px black
+}
+
+
+/*MEDIA*/
+@media(min-width:768px){
+    .conhecimentos{
+        min-height: calc(100vh - 48px - 1rem);
+    }
+
+    .conhecimentos__grupo {
+        min-height: calc(100vh - 30.4px - 48px);/*grid*/
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        align-content: center;
+        
+    } 
+
+    .conhecimentos__icon{
+        font-size: 7rem;
+    }
+    
+
+
+    
+    
+}
+
+
+
+
+
+
+
+
+
+/*
+  <section class="conhecimentos container">
+                <h2>conhecimentos</h2>
+                
+                <div class="conhecimentos__grupo">
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-bootstrap"></i>
+                </div>
+            </section>
+
+
+.conhecimentos__grupo{
+    height: calc(100vh - 22.4px - 29.3px);
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/

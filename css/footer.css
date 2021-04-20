@@ -1,0 +1,26 @@
+.contatos{
+    background-color: black;
+}
+
+
+
+.contatos__icons{
+    display: flex;
+    font-size: 2rem;
+    justify-content: space-evenly;
+    padding: 1rem 0;
+}
+
+
+
+/*MEDIA*/
+
+@media(min-width:768px){
+    .contatos__icons i{
+        font-size: 2.6rem;
+        transition: text-shadow .3s ease-in-out;
+    }
+    .contatos__icons i:hover{
+        text-shadow: 0px 0px 10px rgba(255, 255, 255, 1);
+    }
+}
